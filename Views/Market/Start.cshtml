@@ -2,5 +2,21 @@
     ViewData["Title"] = "Birthday Market";
 }
 
-<h1>Welcome to the Birthday Market!</h1>
-<p>Explore a variety of birthday gifts and ideas to make your celebrations special.</p>
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Birthday Market!</h1>
+    <p>Explore a variety of birthday gifts and ideas to make your celebrations special.</p>
+
+    <br>
+    <div>
+        <!-- TODO: add functionality to user start button -->
+        <a class="btn btn-outline-primary mt-lg-0 mt-2" type="button"
+            asp-area="" asp-controller="" asp-action="">
+            Families Start Here
+        </a>
+
+        <a class="btn btn-outline-success mt-lg-0 mt-2" type="button"
+            asp-area="" asp-controller="Admin" asp-action="Home">
+            Admins Start Here
+        </a>
+    </div>
+</div>
